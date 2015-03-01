@@ -29,6 +29,56 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   // Each state's controller can be found in controllers.js
   $stateProvider
 
+
+.state('makegroup', {
+  url: '/makegroup',
+  templateUrl: 'templates/makegroup.html'
+})
+
+.state('friend', {
+  url: '/friend',
+  templateUrl: 'templates/friend.html'
+})
+
+
+.state('test', {
+  url: '/test',
+  templateUrl: 'templates/test.html'
+})
+
+.state('nom', {
+  url: '/nom',
+  templateUrl: 'templates/nom.html'
+})
+
+.state('nom2', {
+  url: '/nom2',
+  templateUrl: 'templates/nom2.html'
+})
+
+.state('nom3', {
+  url: '/nom3',
+  templateUrl: 'templates/nom3.html'
+})
+
+.state('nom4', {
+  url: '/nom4',
+  templateUrl: 'templates/nom4.html'
+})
+
+.state('nom5', {
+  url: '/nom5',
+  templateUrl: 'templates/nom5.html'
+})
+
+.state('schedule', {
+  url: '/schedule',
+  templateUrl: 'templates/schedule.html'
+})
+
+
+
+
     // setup an abstract state for the tabs directive
     .state('tab', {
       url: "/tab",

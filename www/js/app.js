@@ -30,9 +30,30 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   $stateProvider
 
 
+.state('tab-dash2', {
+  url: '/tab-dash2',
+  templateUrl: 'templates/tab-dash2.html'
+})
+
+.state('tab-dash3', {
+  url: '/tab-dash3',
+  templateUrl: 'templates/tab-dash3.html'
+})
+
+
 .state('makeevent', {
   url: '/makeevent',
   templateUrl: 'templates/makeevent.html'
+})
+
+.state('makeevent2', {
+  url: '/makeevent2',
+  templateUrl: 'templates/makeevent2.html'
+})
+
+.state('makeevent3', {
+  url: '/makeevent3',
+  templateUrl: 'templates/makeevent3.html'
 })
 
 .state('friendslist', {
@@ -40,11 +61,72 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   templateUrl: 'templates/friendslist.html'
 })
 
-
-.state('event', {
-  url: '/event',
-  templateUrl: 'templates/event.html'
+.state('friendslist2', {
+  url: '/friendslist2',
+  templateUrl: 'templates/friendslist2.html'
 })
+
+.state('friendslist3', {
+  url: '/friendslist3',
+  templateUrl: 'templates/friendslist3.html'
+})
+
+
+.state('incomplete247', {
+  url: '/incomplete247',
+  templateUrl: 'templates/incomplete247.html'
+})
+
+.state('waitingpolitics', {
+  url: '/waitingpolitics',
+  templateUrl: 'templates/waitingpolitics.html'
+})
+
+.state('waitingpolitics2', {
+  url: '/waitingpolitics2',
+  templateUrl: 'templates/waitingpolitics2.html'
+})
+
+.state('waitingpolitics3', {
+  url: '/waitingpolitics3',
+  templateUrl: 'templates/waitingpolitics3.html'
+})
+
+.state('waiting247', {
+  url: '/waiting247',
+  templateUrl: 'templates/waiting247.html'
+})
+
+.state('donecelebrity', {
+  url: '/donecelebrity',
+  templateUrl: 'templates/donecelebrity.html'
+})
+
+.state('donecelebrity2', {
+  url: '/donecelebrity2',
+  templateUrl: 'templates/donecelebrity2.html'
+})
+
+.state('donecelebrity3', {
+  url: '/donecelebrity3',
+  templateUrl: 'templates/donecelebrity3.html'
+})
+
+.state('doneceo', {
+  url: '/doneceo',
+  templateUrl: 'templates/doneceo.html'
+})
+
+.state('doneceo2', {
+  url: '/doneceo2',
+  templateUrl: 'templates/doneceo2.html'
+})
+
+.state('doneceo3', {
+  url: '/doneceo3',
+  templateUrl: 'templates/doneceo3.html'
+})
+
 
 .state('nom', {
   url: '/nom',

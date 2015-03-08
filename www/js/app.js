@@ -30,20 +30,20 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   $stateProvider
 
 
-.state('makegroup', {
-  url: '/makegroup',
-  templateUrl: 'templates/makegroup.html'
+.state('makeevent', {
+  url: '/makeevent',
+  templateUrl: 'templates/makeevent.html'
 })
 
-.state('friend', {
-  url: '/friend',
-  templateUrl: 'templates/friend.html'
+.state('friendslist', {
+  url: '/friendslist',
+  templateUrl: 'templates/friendslist.html'
 })
 
 
-.state('test', {
-  url: '/test',
-  templateUrl: 'templates/test.html'
+.state('event', {
+  url: '/event',
+  templateUrl: 'templates/event.html'
 })
 
 .state('nom', {

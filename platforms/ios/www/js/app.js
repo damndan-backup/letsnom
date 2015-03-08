@@ -30,22 +30,45 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   $stateProvider
 
 
-
-
-
-.state('test', {
-  url: '/test',
-  templateUrl: 'templates/test.html'
+.state('makeevent', {
+  url: '/makeevent',
+  templateUrl: 'templates/makeevent.html'
 })
 
-.state('nomschedule', {
-  url: '/nomschedule',
-  templateUrl: 'templates/nomschedule.html'
+.state('friendslist', {
+  url: '/friendlists',
+  templateUrl: 'templates/friendslist.html'
+})
+
+
+.state('event', {
+  url: '/event',
+  templateUrl: 'templates/event.html'
 })
 
 .state('nom', {
   url: '/nom',
   templateUrl: 'templates/nom.html'
+})
+
+.state('nom2', {
+  url: '/nom2',
+  templateUrl: 'templates/nom2.html'
+})
+
+.state('nom3', {
+  url: '/nom3',
+  templateUrl: 'templates/nom3.html'
+})
+
+.state('nom4', {
+  url: '/nom4',
+  templateUrl: 'templates/nom4.html'
+})
+
+.state('nom5', {
+  url: '/nom5',
+  templateUrl: 'templates/nom5.html'
 })
 
 .state('schedule', {

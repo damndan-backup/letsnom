@@ -161,6 +161,21 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   templateUrl: 'templates/doneobama.html'
 })
 
+.state('doneobama2', {
+  url: '/doneobama2',
+  templateUrl: 'templates/doneobama2.html'
+})
+
+.state('doneobama3', {
+  url: '/doneobama3',
+  templateUrl: 'templates/doneobama3.html'
+})
+
+.state('doneobama4', {
+  url: '/doneobama4',
+  templateUrl: 'templates/doneobama4.html'
+})
+
 
 
 

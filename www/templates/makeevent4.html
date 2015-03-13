@@ -1,0 +1,89 @@
+<div class="bar bar-header">
+  <a class="button icon-left ion-chevron-left button-clear button-dark" href="#/tab-dash4"></a>
+  <div class="h1 title">Make Event</div>
+</div>
+
+<ion-view view-title="Dashboard">
+<ion-content class="padding">
+
+<br>
+<br>
+<br>
+
+
+
+<a class="item item-icon-left" href="#/friendslist">
+    <i class="icon ion-chatbubble-working"></i>
+    Invite Friends
+</a>
+
+<br>
+
+<b>Event Name</b>:
+
+<label class="item item-input">
+  <i class="placeholder-icon"></i>
+  <input type="search" placeholder="Outting..">
+</label>
+
+       
+<br>
+
+<b>Preferred Location</b>:
+
+<label class="item item-input">
+  <i class="icon ion-search placeholder-icon"></i>
+  <input type="search" placeholder="Bay Area..">
+</label>
+
+<br>
+
+<b>Event Type</b>:
+
+<div class="button-bar">
+  <a class="button" id="coloring" style="background: #4A87EE;" onclick="toggleTable();"><h5>Brkfst</h5></a>
+  <a class="button" id="coloring2" onclick="toggleTable2();"><h5>Lunch</h5></a>
+  <a class="button" id="coloring3" onclick="toggleTable3();"><h5>Drinks</h5></a>
+  <a class="button" id="coloring4" onclick="toggleTable4();"><h5>Coffee</h5></a>
+  <a class="button" id="coloring5" onclick="toggleTable5();"><h5>Dinner</h5></a>
+</div>
+
+<br>
+
+<b>Dietary Restrictions </b><i>(select all that apply)</i>:
+
+<div class="button-bar">
+  <a class="button" id="filter" value="0" onclick="filter();"><h5>Vegan</h5></a>
+  <a class="button" id="filter2" value="0" onclick="filter2();"><h5>Kosher</h5></a>
+  <a class="button" id="filter3" value="0" onclick="filter3();"><h5>Vegetarian</h5></a>
+  <a class="button" id="filter4" value="0" onclick="filter4();"><h5>GlutFree</h5></a>
+</div>
+
+<br>
+
+
+<div class="list">
+  <div class="item range range-positive">
+    <i class="icon ion-social-usd"></i>
+    <input type="range" name="volume" min="1" max="4" value="0">
+    <i class="icon ion-social-usd"></i>
+    <i class="icon ion-social-usd"></i>
+    <i class="icon ion-social-usd"></i>
+    <i class="icon ion-social-usd"></i>
+  </div>
+</div>
+
+<br>
+    
+
+<a href="#/nom" id="linker">
+<button class="button button-block button-positive">
+  HOST NOW!
+</button>
+</a>
+
+
+
+    
+  </ion-content>
+</ion-view>

@@ -40,6 +40,10 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   templateUrl: 'templates/tab-dash3.html'
 })
 
+.state('tab-dash4', {
+  url: '/tab-dash4',
+  templateUrl: 'templates/tab-dash4.html'
+})
 
 .state('makeevent', {
   url: '/makeevent',
@@ -56,6 +60,11 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   templateUrl: 'templates/makeevent3.html'
 })
 
+.state('makeevent4', {
+  url: '/makeevent4',
+  templateUrl: 'templates/makeevent4.html'
+})
+
 .state('friendslist', {
   url: '/friendslist',
   templateUrl: 'templates/friendslist.html'
@@ -69,6 +78,11 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 .state('friendslist3', {
   url: '/friendslist3',
   templateUrl: 'templates/friendslist3.html'
+})
+
+.state('friendslist4', {
+  url: '/friendslist4',
+  templateUrl: 'templates/friendslist4.html'
 })
 
 
@@ -92,6 +106,11 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   templateUrl: 'templates/waitingpolitics3.html'
 })
 
+.state('waitingpolitics4', {
+  url: '/waitingpolitics4',
+  templateUrl: 'templates/waitingpolitics4.html'
+})
+
 .state('waiting247', {
   url: '/waiting247',
   templateUrl: 'templates/waiting247.html'
@@ -112,6 +131,11 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   templateUrl: 'templates/donecelebrity3.html'
 })
 
+.state('donecelebrity4', {
+  url: '/donecelebrity4',
+  templateUrl: 'templates/donecelebrity4.html'
+})
+
 .state('doneceo', {
   url: '/doneceo',
   templateUrl: 'templates/doneceo.html'
@@ -125,6 +149,16 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 .state('doneceo3', {
   url: '/doneceo3',
   templateUrl: 'templates/doneceo3.html'
+})
+
+.state('doneceo4', {
+  url: '/doneceo4',
+  templateUrl: 'templates/doneceo4.html'
+})
+
+.state('doneobama', {
+  url: '/doneobama',
+  templateUrl: 'templates/doneobama.html'
 })
 
 

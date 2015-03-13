@@ -128,6 +128,8 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 })
 
 
+
+
 .state('nom', {
   url: '/nom',
   templateUrl: 'templates/nom.html'
@@ -153,9 +155,137 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   templateUrl: 'templates/nom5.html'
 })
 
+
+
+.state('2nom', {
+  url: '/2nom',
+  templateUrl: 'templates/2nom.html'
+})
+
+.state('2nom2', {
+  url: '/2nom2',
+  templateUrl: 'templates/2nom2.html'
+})
+
+.state('2nom3', {
+  url: '/2nom3',
+  templateUrl: 'templates/2nom3.html'
+})
+
+.state('2nom4', {
+  url: '/2nom4',
+  templateUrl: 'templates/2nom4.html'
+})
+
+.state('2nom5', {
+  url: '/2nom5',
+  templateUrl: 'templates/2nom5.html'
+})
+
+
+.state('3nom', {
+  url: '/3nom',
+  templateUrl: 'templates/3nom.html'
+})
+
+.state('3nom2', {
+  url: '/3nom2',
+  templateUrl: 'templates/3nom2.html'
+})
+
+.state('3nom3', {
+  url: '/3nom3',
+  templateUrl: 'templates/3nom3.html'
+})
+
+.state('3nom4', {
+  url: '/3nom4',
+  templateUrl: 'templates/3nom4.html'
+})
+
+.state('3nom5', {
+  url: '/3nom5',
+  templateUrl: 'templates/3nom5.html'
+})
+
+
+.state('4nom', {
+  url: '/4nom',
+  templateUrl: 'templates/4nom.html'
+})
+
+.state('4nom2', {
+  url: '/4nom2',
+  templateUrl: 'templates/4nom2.html'
+})
+
+.state('4nom3', {
+  url: '/4nom3',
+  templateUrl: 'templates/4nom3.html'
+})
+
+.state('4nom4', {
+  url: '/4nom4',
+  templateUrl: 'templates/4nom4.html'
+})
+
+.state('4nom5', {
+  url: '/4nom5',
+  templateUrl: 'templates/4nom5.html'
+})
+
+
+.state('5nom', {
+  url: '/5nom',
+  templateUrl: 'templates/5nom.html'
+})
+
+.state('5nom2', {
+  url: '/5nom2',
+  templateUrl: 'templates/5nom2.html'
+})
+
+.state('5nom3', {
+  url: '/5nom3',
+  templateUrl: 'templates/5nom3.html'
+})
+
+.state('5nom4', {
+  url: '/5nom4',
+  templateUrl: 'templates/5nom4.html'
+})
+
+.state('5nom5', {
+  url: '/5nom5',
+  templateUrl: 'templates/5nom5.html'
+})
+
+
+
+
 .state('schedule', {
   url: '/schedule',
   templateUrl: 'templates/schedule.html'
+})
+
+.state('schedule2', {
+  url: '/schedule2',
+  templateUrl: 'templates/schedule2.html'
+})
+
+.state('schedule3', {
+  url: '/schedule3',
+  templateUrl: 'templates/schedule3.html'
+})
+
+.state('schedule4', {
+  url: '/schedule4',
+  templateUrl: 'templates/schedule4.html'
+})
+
+.state('schedule5', {
+  url: '/schedule5',
+  templateUrl: 'templates/schedule5.html'
 })
 
 

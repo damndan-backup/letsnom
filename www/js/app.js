@@ -111,10 +111,19 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   templateUrl: 'templates/waitingpolitics4.html'
 })
 
+
+
 .state('waiting247', {
   url: '/waiting247',
   templateUrl: 'templates/waiting247.html'
 })
+
+.state('2waiting247', {
+  url: '/2waiting247',
+  templateUrl: 'templates/2waiting247.html'
+})
+
+
 
 .state('donecelebrity', {
   url: '/donecelebrity',
